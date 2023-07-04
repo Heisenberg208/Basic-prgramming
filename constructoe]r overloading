@@ -1,0 +1,20 @@
+import java.util.*;
+class cons{
+	String id;
+	int n;
+	cons(){
+		System.out.println("the is a default constructor\n\n");
+	}
+	cons(int i,String s ){
+		System.out.println("this a parameterised constructor");
+		id=s;
+		n=i;
+		System.out.printf("name=%s\nid=%d",id,n);
+		
+	}
+	public static void main(String[]arga) {
+		cons s=new cons();
+		cons st=new cons(10,"dacid");
+		
+	}
+}
